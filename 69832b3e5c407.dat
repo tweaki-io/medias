@@ -1,0 +1,1555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="3uUrwAHZnA24lpMl48C8HqvnxiwJ243vSCllJjC6">
+
+    <title>HIM4HER</title>
+    <meta name="keywords" content="him 4 her">
+    <meta name="description" content="">
+    <meta name="author" content="HIM4HER">
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/tweaki-io/medias/main/69746dd861bfa.PNG">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+    
+    
+
+
+    <!-- Scripts -->
+    <script src="https://him4her.co.in/js/k73rosFuRWOa.js" defer></script>
+    <link rel="stylesheet" href="https://him4her.co.in/css/k6XrbtP4vCfG.css">
+
+      <!-- font awesome -->
+    <link rel="stylesheet" href="https://him4her.co.in/fontawsome/css/all.min.css">
+    <script src="https://him4her.co.in/fontawsome/js/pro.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+        rel="stylesheet">
+
+    <script>
+        localStorage.getItem("_x_darkMode_on") === "true" &&
+            document.documentElement.classList.add("dark");
+    </script>
+
+    <style>
+
+
+        .card {
+            box-shadow: 0rem .3125rem .3125rem -.15625rem rgba(0, 0, 0, .03), 0rem .1875rem .1875rem -.09375rem rgba(0, 0, 0, .02), 0rem .125rem .125rem -.0625rem rgba(0, 0, 0, .02), 0rem .0625rem .0625rem -.03125rem rgba(0, 0, 0, .03), 0rem .03125rem .03125rem rgba(0, 0, 0, .04), 0rem 0rem 0rem .0625rem rgba(0, 0, 0, .06) !important;
+            border: none;
+        }
+
+        .card-body {
+            flex-grow: 1;
+            padding-inline-start: 1.875rem;
+            padding-inline-end: 1.875rem;
+            padding-top: 1.25rem;
+            padding-bottom: 1.25rem;
+        }
+
+        .card-header {
+            display: flex;
+            min-height: 56px;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #f1f1f4;
+            padding-inline-start: 1.875rem;
+            padding-inline-end: 1.875rem;
+            padding-top: .75rem;
+            padding-bottom: .75rem;
+        }
+    </style>
+
+    <!-- Styles -->
+    <style >[wire\:loading], [wire\:loading\.delay], [wire\:loading\.inline-block], [wire\:loading\.inline], [wire\:loading\.block], [wire\:loading\.flex], [wire\:loading\.table], [wire\:loading\.grid], [wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short], [wire\:loading\.delay\.long], [wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest] {display:none;}[wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}input:-webkit-autofill, select:-webkit-autofill, textarea:-webkit-autofill {animation-duration: 50000s;animation-name: livewireautofill;}@keyframes livewireautofill { from {} }</style>
+    
+</head>
+
+<body x-data class="is-header-blur" x-bind="$store.global.documentBody">
+
+    <div class="fixed z-50 grid w-full h-full app-preloader place-content-center bg-slate-50 dark:bg-navy-900">
+        <div class="relative inline-block w-48 h-48 app-preloader-inner"></div>
+    </div>
+
+    <!-- Page Wrapper -->
+    <div id="root" class="flex min-h-100vh grow bg-slate-50 dark:bg-navy-900" x-cloak>
+        <!-- Sidebar -->
+        <div class="sidebar print:hidden">
+    <!-- Main Sidebar -->
+    <div class="main-sidebar">
+      <div class="flex h-full w-full flex-col items-center border-r border-slate-150 bg-white dark:border-navy-700 dark:bg-navy-800">
+        <!-- Application Logo -->
+        <div class="flex pt-4">
+            <a href="https://him4her.co.in/admin/dashboard">
+    <img class="mx-auto h-11 w-11 transition-transform duration-500 ease-in-out hover:rotate-[360deg]" src="https://raw.githubusercontent.com/tweaki-io/medias/main/69749f3425c89.png" alt="logo">
+</a>
+        </div>
+
+        <!-- Main Sections Links -->
+        <div class="is-scrollbar-hidden flex grow flex-col space-y-4 overflow-y-auto pt-6">
+          <!-- Dashobards -->
+
+                    <a href="https://him4her.co.in/admin/dashboard" class="flex h-11 w-11 items-center justify-center rounded-lg outline-none transition-colors duration-200 hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25" x-tooltip.placement.right="'Dashboard'">
+<i class="text-xl fa-duotone fad fa-house"></i>    
+</a>
+                    <a href="https://him4her.co.in/admin/ads" class="flex h-11 w-11 items-center justify-center rounded-lg outline-none transition-colors duration-200 hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25" x-tooltip.placement.right="'Banners'">
+<i class="text-xl fa-duotone fad fa-images"></i>    
+</a>
+                    <a href="https://him4her.co.in/admin/product/list" class="flex h-11 w-11 items-center justify-center rounded-lg bg-primary/10 text-primary outline-none transition-colors duration-200 hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-navy-600 dark:text-accent-light dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90" x-tooltip.placement.right="'Product'">
+<i class="text-xl fa-duotone fad fa-layer-group"></i>
+</a>
+                    <a href="https://him4her.co.in/admin/order/list" class="flex h-11 w-11 items-center justify-center rounded-lg outline-none transition-colors duration-200 hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25" x-tooltip.placement.right="'Order'">
+<i class="text-xl fa-duotone fad fa-shopping-cart"></i>    
+</a>
+                    <a href="https://him4her.co.in/admin/providers" class="flex h-11 w-11 items-center justify-center rounded-lg outline-none transition-colors duration-200 hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25" x-tooltip.placement.right="'Drop Shipping Panel'">
+<i class="text-xl fa-duotone fad fa-shipping-fast"></i>    
+</a>
+                    <a href="https://him4her.co.in/admin/testimonials" class="flex h-11 w-11 items-center justify-center rounded-lg outline-none transition-colors duration-200 hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25" x-tooltip.placement.right="'Testimonials'">
+<i class="text-xl fa-duotone fad fa-comments"></i>    
+</a>
+                    <a href="https://him4her.co.in/admin/pages" class="flex h-11 w-11 items-center justify-center rounded-lg outline-none transition-colors duration-200 hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25" x-tooltip.placement.right="'Pages'">
+<i class="text-xl fa-duotone fad fa-file-alt"></i>    
+</a>
+                    <a href="https://him4her.co.in/admin/brands" class="flex h-11 w-11 items-center justify-center rounded-lg outline-none transition-colors duration-200 hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25" x-tooltip.placement.right="'Brand'">
+<i class="text-xl fa-duotone fad fa-server"></i>    
+</a>
+                    <a href="https://him4her.co.in/admin/coupon-codes" class="flex h-11 w-11 items-center justify-center rounded-lg outline-none transition-colors duration-200 hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25" x-tooltip.placement.right="'Coupon Codes'">
+<i class="text-xl fa-duotone fad fa-tags"></i>    
+</a>
+                    <a href="https://him4her.co.in/admin/reviews" class="flex h-11 w-11 items-center justify-center rounded-lg outline-none transition-colors duration-200 hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25" x-tooltip.placement.right="'Reviews'">
+<i class="text-xl fa-duotone fad fa-star"></i>    
+</a>
+                    <a href="https://him4her.co.in/admin/shipping-charges" class="flex h-11 w-11 items-center justify-center rounded-lg outline-none transition-colors duration-200 hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25" x-tooltip.placement.right="'Shipping Charge'">
+<i class="text-xl fa-duotone fad fa-truck"></i>    
+</a>
+          
+                    <a href="https://him4her.co.in/admin/brands/1/groups" class="flex h-11 w-11 items-center justify-center rounded-lg outline-none transition-colors duration-200 hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25" x-tooltip.placement.right="'Main titles / Videos'">
+<i class="text-xl fa-duotone fad fa-list-alt"></i>    
+</a>
+          <a href="https://him4her.co.in/admin/ads/dynamic" class="flex h-11 w-11 items-center justify-center rounded-lg outline-none transition-colors duration-200 hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25" x-tooltip.placement.right="'Dynamic Products'">
+<i class="text-xl fa-duotone fad fa-image"></i>    
+</a>
+          
+
+        </div>
+
+        <!-- Bottom Links -->
+        <div class="flex flex-col items-center space-y-3 py-3">
+          <!-- Settings -->
+          <a href="https://him4her.co.in/user/settings" class="flex h-11 w-11 items-center justify-center rounded-lg outline-none transition-colors duration-200 hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+            <svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-opacity="0.3" fill="currentColor" d="M2 12.947v-1.771c0-1.047.85-1.913 1.899-1.913 1.81 0 2.549-1.288 1.64-2.868a1.919 1.919 0 0 1 .699-2.607l1.729-.996c.79-.474 1.81-.192 2.279.603l.11.192c.9 1.58 2.379 1.58 3.288 0l.11-.192c.47-.795 1.49-1.077 2.279-.603l1.73.996a1.92 1.92 0 0 1 .699 2.607c-.91 1.58-.17 2.868 1.639 2.868 1.04 0 1.899.856 1.899 1.912v1.772c0 1.047-.85 1.912-1.9 1.912-1.808 0-2.548 1.288-1.638 2.869.52.915.21 2.083-.7 2.606l-1.729.997c-.79.473-1.81.191-2.279-.604l-.11-.191c-.9-1.58-2.379-1.58-3.288 0l-.11.19c-.47.796-1.49 1.078-2.279.605l-1.73-.997a1.919 1.919 0 0 1-.699-2.606c.91-1.58.17-2.869-1.639-2.869A1.911 1.911 0 0 1 2 12.947Z"/>
+              <path fill="currentColor" d="M11.995 15.332c1.794 0 3.248-1.464 3.248-3.27 0-1.807-1.454-3.272-3.248-3.272-1.794 0-3.248 1.465-3.248 3.271 0 1.807 1.454 3.271 3.248 3.271Z"/>
+            </svg>
+          </a>
+
+          <!-- Profile -->
+          <div x-data="usePopper({placement:'right-end',offset:12})" @click.outside="isShowPopper && (isShowPopper = false)" class="flex">
+            <button @click="isShowPopper = !isShowPopper" x-ref="popperRef" class="avatar h-12 w-12">
+              <img class="rounded-full" src="https://ui-avatars.com/api/?name=f&amp;color=7F9CF5&amp;background=EBF4FF" alt="fid">
+              <span class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-success dark:border-navy-700"></span>
+            </button>
+
+            <div :class="isShowPopper && 'show'" class="popper-root fixed" x-ref="popperRoot">
+              <div class="popper-box w-64 rounded-lg border border-slate-150 bg-white shadow-soft dark:border-navy-600 dark:bg-navy-700">
+                <div class="flex items-center space-x-4 rounded-t-lg bg-slate-100 py-5 px-4 dark:bg-navy-800">
+                  <div class="avatar h-14 w-14">
+                    <img class="rounded-full" src="https://ui-avatars.com/api/?name=f&amp;color=7F9CF5&amp;background=EBF4FF" alt="fid">
+                  </div>
+                  <div>
+                    <a href="#" class="text-base font-medium text-slate-700 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">
+                        fid
+                    </a>
+                    <p class="text-xs text-slate-400 dark:text-navy-300">
+                       admin
+                    </p>
+                  </div>
+                </div>
+                <div class="flex flex-col pt-2 pb-5">
+                  <a href="https://him4her.co.in/user/settings" class="group flex items-center space-x-3 py-2 px-4 tracking-wide outline-none transition-all hover:bg-slate-100 focus:bg-slate-100 dark:hover:bg-navy-600 dark:focus:bg-navy-600">
+                    <div class="flex h-8 w-8 items-center justify-center rounded-lg bg-warning text-white">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
+                      </svg>
+                    </div>
+
+                    <div>
+                      <h2 class="font-medium text-slate-700 transition-colors group-hover:text-primary group-focus:text-primary dark:text-navy-100 dark:group-hover:text-accent-light dark:group-focus:text-accent-light">
+                        Profile
+                      </h2>
+                      <div class="text-xs text-slate-400 line-clamp-1 dark:text-navy-300">
+                        Your profile setting
+                      </div>
+                    </div>
+                  </a>
+
+                  <div class="mt-3 px-4">
+                    <form method="POST" action="https://him4her.co.in/logout">
+                        <input type="hidden" name="_token" value="3uUrwAHZnA24lpMl48C8HqvnxiwJ243vSCllJjC6" autocomplete="off">                        <button type="submit" class="btn h-9 w-full space-x-2 bg-primary text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"/>
+                          </svg>
+                          <span>Logout</span>
+                        </button>
+                    </form>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sidebar Panel -->
+    <div class="sidebar-panel">
+      <div class="flex h-full grow flex-col bg-white pl-[var(--main-sidebar-width)] dark:bg-navy-750">
+        <!-- Sidebar Panel Header -->
+        <div class="flex h-18 w-full items-center justify-between pl-4 pr-1">
+          <p class="text-base tracking-wider text-slate-800 dark:text-navy-100">
+            Dashboards
+          </p>
+          <button @click="$store.global.isSidebarExpanded = false" class="btn h-7 w-7 rounded-full p-0 text-primary hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:text-accent-light/80 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25 xl:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Sidebar Panel Body -->
+        <div x-data="{expandedItem:null}" class="h-[calc(100%-4.5rem)] overflow-x-hidden pb-6" x-init="$el._x_simplebar = new SimpleBar($el);">
+          <ul class="flex flex-1 flex-col px-4 font-inter">
+            <li>
+              <a x-data="navLink" href="https://him4her.co.in/admin/dashboard" :class="isActive ? 'font-medium text-primary dark:text-accent-light' : 'text-slate-600 hover:text-slate-900 dark:text-navy-200 dark:hover:text-navy-50'" class="flex py-2 text-xs+ tracking-wide outline-none transition-colors duration-300 ease-in-out">
+                Dashboard
+              </a>
+            </li>
+          </ul>
+          <div class="my-3 mx-4 h-px bg-slate-200 dark:bg-navy-500"></div>
+          <ul class="flex flex-1 flex-col px-4 font-inter">
+            
+
+                                                                                                <li>
+              <a x-data="navLink" href="https://him4her.co.in/admin/product/categories" :class="isActive ? 'font-medium text-primary dark:text-accent-light' : 'text-slate-600 hover:text-slate-900 dark:text-navy-200 dark:hover:text-navy-50'" class="flex py-2 text-xs+ tracking-wide outline-none transition-colors duration-300 ease-in-out">
+                Category
+              </a>
+            </li>
+                        <li>
+              <a x-data="navLink" href="https://him4her.co.in/admin/product/sub-categories" :class="isActive ? 'font-medium text-primary dark:text-accent-light' : 'text-slate-600 hover:text-slate-900 dark:text-navy-200 dark:hover:text-navy-50'" class="flex py-2 text-xs+ tracking-wide outline-none transition-colors duration-300 ease-in-out">
+                Sub Category
+              </a>
+            </li>
+                        <li>
+              <a x-data="navLink" href="https://him4her.co.in/admin/product/sizes" :class="isActive ? 'font-medium text-primary dark:text-accent-light' : 'text-slate-600 hover:text-slate-900 dark:text-navy-200 dark:hover:text-navy-50'" class="flex py-2 text-xs+ tracking-wide outline-none transition-colors duration-300 ease-in-out">
+                Size
+              </a>
+            </li>
+                        <li>
+              <a x-data="navLink" href="https://him4her.co.in/admin/product/colors" :class="isActive ? 'font-medium text-primary dark:text-accent-light' : 'text-slate-600 hover:text-slate-900 dark:text-navy-200 dark:hover:text-navy-50'" class="flex py-2 text-xs+ tracking-wide outline-none transition-colors duration-300 ease-in-out">
+                Color
+              </a>
+            </li>
+                        <li>
+              <a x-data="navLink" href="https://him4her.co.in/admin/product/list" :class="isActive ? 'font-medium text-primary dark:text-accent-light' : 'text-slate-600 hover:text-slate-900 dark:text-navy-200 dark:hover:text-navy-50'" class="flex py-2 text-xs+ tracking-wide outline-none transition-colors duration-300 ease-in-out">
+                Product Lists
+              </a>
+            </li>
+                        <li>
+              <a x-data="navLink" href="https://him4her.co.in/admin/product/create-or-update" :class="isActive ? 'font-medium text-primary dark:text-accent-light' : 'text-slate-600 hover:text-slate-900 dark:text-navy-200 dark:hover:text-navy-50'" class="flex py-2 text-xs+ tracking-wide outline-none transition-colors duration-300 ease-in-out">
+                Create Product
+              </a>
+            </li>
+                                                                                                                                                                                                                                    
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+        <!-- App Header Wrapper-->
+        <nav class="header before:bg-white dark:before:bg-navy-750 print:hidden">
+    <!-- App Header  -->
+    <div class="header-container relative flex w-full bg-white dark:bg-navy-750 print:hidden">
+      <!-- Header Items -->
+      <div class="flex w-full items-center justify-between">
+        <!-- Left: Sidebar Toggle Button -->
+        <div class="h-7 w-7">
+          <button class="menu-toggle ml-0.5 flex h-7 w-7 flex-col justify-center space-y-1.5 text-primary outline-none focus:outline-none dark:text-accent-light/80" :class="$store.global.isSidebarExpanded && 'active'" @click="$store.global.isSidebarExpanded = !$store.global.isSidebarExpanded">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+
+        <!-- Right: Header buttons -->
+        <div class="-mr-1.5 flex items-center space-x-2">
+         
+
+         
+
+          <!-- Dark Mode Toggle -->
+          <button @click="$store.global.isDarkModeEnabled = !$store.global.isDarkModeEnabled" class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+            <svg x-show="$store.global.isDarkModeEnabled" x-transition:enter="transition-transform duration-200 ease-out absolute origin-top" x-transition:enter-start="scale-75" x-transition:enter-end="scale-100 static" class="h-6 w-6 text-amber-400" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M11.75 3.412a.818.818 0 01-.07.917 6.332 6.332 0 00-1.4 3.971c0 3.564 2.98 6.494 6.706 6.494a6.86 6.86 0 002.856-.617.818.818 0 011.1 1.047C19.593 18.614 16.218 21 12.283 21 7.18 21 3 16.973 3 11.956c0-4.563 3.46-8.31 7.925-8.948a.818.818 0 01.826.404z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" x-show="!$store.global.isDarkModeEnabled" x-transition:enter="transition-transform duration-200 ease-out absolute origin-top" x-transition:enter-start="scale-75" x-transition:enter-end="scale-100 static" class="h-6 w-6 text-amber-400" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"/>
+            </svg>
+          </button>
+          <!-- Monochrome Mode Toggle -->
+          <button @click="$store.global.isMonochromeModeEnabled = !$store.global.isMonochromeModeEnabled" class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+            <i class="fa-solid fa-palette bg-gradient-to-r from-sky-400 to-blue-600 bg-clip-text text-lg font-semibold text-transparent"></i>
+          </button>
+
+          <!-- Notification-->
+          
+
+          <!-- Right Sidebar Toggle -->
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+        <!-- Mobile Searchbar -->
+        <div x-show="$store.breakpoints.isXs && $store.global.isSearchbarActive" x-transition:enter="easy-out transition-all" x-transition:enter-start="opacity-0 scale-105" x-transition:enter-end="opacity-100 scale-100" x-transition:leave="easy-in transition-all" x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95" class="fixed inset-0 z-[100] flex flex-col bg-white dark:bg-navy-700 sm:hidden">
+    <div class="flex items-center space-x-2 bg-slate-100 px-3 pt-2 dark:bg-navy-800">
+      <button class="btn -ml-1.5 h-7 w-7 shrink-0 rounded-full p-0 text-slate-600 hover:bg-slate-300/20 active:bg-slate-300/25 dark:text-navy-100 dark:hover:bg-navy-300/20 dark:active:bg-navy-300/25" @click="$store.global.isSearchbarActive = false">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" stroke-width="1.5" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/>
+        </svg>
+      </button>
+      <input x-effect="$store.global.isSearchbarActive && $nextTick(() => $el.focus() );" class="form-input h-8 w-full bg-transparent placeholder-slate-400 dark:placeholder-navy-300" type="text" placeholder="Search here...">
+    </div>
+
+    <div x-data="{activeTab:'tabAll'}" class="is-scrollbar-hidden flex shrink-0 overflow-x-auto bg-slate-100 px-2 text-slate-600 dark:bg-navy-800 dark:text-navy-200">
+      <button @click="activeTab = 'tabAll'" :class="activeTab === 'tabAll' ? 'border-primary dark:border-accent text-primary dark:text-accent-light' : 'border-transparent hover:text-slate-800 focus:text-slate-800 dark:hover:text-navy-100 dark:focus:text-navy-100'" class="btn shrink-0 rounded-none border-b-2 px-3.5 py-2.5">
+        All
+      </button>
+      <button @click="activeTab = 'tabFiles'" :class="activeTab === 'tabFiles' ? 'border-primary dark:border-accent text-primary dark:text-accent-light' : 'border-transparent hover:text-slate-800 focus:text-slate-800 dark:hover:text-navy-100 dark:focus:text-navy-100'" class="btn shrink-0 rounded-none border-b-2 px-3.5 py-2.5">
+        Files
+      </button>
+      <button @click="activeTab = 'tabChats'" :class="activeTab === 'tabChats' ? 'border-primary dark:border-accent text-primary dark:text-accent-light' : 'border-transparent hover:text-slate-800 focus:text-slate-800 dark:hover:text-navy-100 dark:focus:text-navy-100'" class="btn shrink-0 rounded-none border-b-2 px-3.5 py-2.5">
+        Chats
+      </button>
+      <button @click="activeTab = 'tabEmails'" :class="activeTab === 'tabEmails' ? 'border-primary dark:border-accent text-primary dark:text-accent-light' : 'border-transparent hover:text-slate-800 focus:text-slate-800 dark:hover:text-navy-100 dark:focus:text-navy-100'" class="btn shrink-0 rounded-none border-b-2 px-3.5 py-2.5">
+        Emails
+      </button>
+      <button @click="activeTab = 'tabProjects'" :class="activeTab === 'tabProjects' ? 'border-primary dark:border-accent text-primary dark:text-accent-light' : 'border-transparent hover:text-slate-800 focus:text-slate-800 dark:hover:text-navy-100 dark:focus:text-navy-100'" class="btn shrink-0 rounded-none border-b-2 px-3.5 py-2.5">
+        Projects
+      </button>
+      <button @click="activeTab = 'tabTasks'" :class="activeTab === 'tabTasks' ? 'border-primary dark:border-accent text-primary dark:text-accent-light' : 'border-transparent hover:text-slate-800 focus:text-slate-800 dark:hover:text-navy-100 dark:focus:text-navy-100'" class="btn shrink-0 rounded-none border-b-2 px-3.5 py-2.5">
+        Tasks
+      </button>
+    </div>
+
+    <div class="is-scrollbar-hidden overflow-y-auto overscroll-contain pb-2">
+      <div class="is-scrollbar-hidden mt-3 flex space-x-4 overflow-x-auto px-3">
+        <a href="apps-kanban.html" class="w-14 text-center">
+          <div class="avatar h-12 w-12">
+            <div class="is-initial rounded-full bg-success text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2"/>
+              </svg>
+            </div>
+          </div>
+          <p class="mt-1.5 overflow-hidden text-ellipsis whitespace-nowrap text-xs text-slate-700 dark:text-navy-100">
+            Kanban
+          </p>
+        </a>
+        <a href="dashboards-crm-analytics.html" class="w-14 text-center">
+          <div class="avatar h-12 w-12">
+            <div class="is-initial rounded-full bg-secondary text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+              </svg>
+            </div>
+          </div>
+          <p class="mt-1.5 overflow-hidden text-ellipsis whitespace-nowrap text-xs text-slate-700 dark:text-navy-100">
+            Analytics
+          </p>
+        </a>
+        <a href="apps-chat.html" class="w-14 text-center">
+          <div class="avatar h-12 w-12">
+            <div class="is-initial rounded-full bg-info text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+              </svg>
+            </div>
+          </div>
+          <p class="mt-1.5 overflow-hidden text-ellipsis whitespace-nowrap text-xs text-slate-700 dark:text-navy-100">
+            Chat
+          </p>
+        </a>
+        <a href="apps-filemanager.html" class="w-14 text-center">
+          <div class="avatar h-12 w-12">
+            <div class="is-initial rounded-full bg-error text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/>
+              </svg>
+            </div>
+          </div>
+          <p class="mt-1.5 overflow-hidden text-ellipsis whitespace-nowrap text-xs text-slate-700 dark:text-navy-100">
+            Files
+          </p>
+        </a>
+        <a href="dashboards-crypto-1.html" class="w-14 text-center">
+          <div class="avatar h-12 w-12">
+            <div class="is-initial rounded-full bg-secondary text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 9a2 2 0 10-4 0v5a2 2 0 01-2 2h6m-6-4h4m8 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+            </div>
+          </div>
+          <p class="mt-1.5 overflow-hidden text-ellipsis whitespace-nowrap text-xs text-slate-700 dark:text-navy-100">
+            Crypto
+          </p>
+        </a>
+        <a href="dashboards-banking-1.html" class="w-14 text-center">
+          <div class="avatar h-12 w-12">
+            <div class="is-initial rounded-full bg-primary text-white dark:bg-accent">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/>
+              </svg>
+            </div>
+          </div>
+          <p class="mt-1.5 overflow-hidden text-ellipsis whitespace-nowrap text-xs text-slate-700 dark:text-navy-100">
+            Banking
+          </p>
+        </a>
+        <a href="apps-todo.html" class="w-14 text-center">
+          <div class="avatar h-12 w-12">
+            <div class="is-initial rounded-full bg-info text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path d="M12.5293 18L20.9999 8.40002" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M3 13.2L7.23529 18L17.8235 6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </div>
+          <p class="mt-1.5 overflow-hidden text-ellipsis whitespace-nowrap text-xs text-slate-700 dark:text-navy-100">
+            Todo
+          </p>
+        </a>
+
+        <a href="dashboards-orders.html" class="w-14 text-center">
+          <div class="avatar h-12 w-12">
+            <div class="is-initial rounded-full bg-warning text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>
+              </svg>
+            </div>
+          </div>
+          <p class="mt-1.5 overflow-hidden text-ellipsis whitespace-nowrap text-xs text-slate-700 dark:text-navy-100">
+            Orders
+          </p>
+        </a>
+      </div>
+
+      <div class="mt-3 flex items-center justify-between bg-slate-100 py-1.5 px-3 dark:bg-navy-800">
+        <p class="text-xs uppercase text-slate-400 dark:text-navy-300">
+          Recent
+        </p>
+        <a href="#" class="text-tiny+ font-medium uppercase text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70 dark:text-accent-light dark:hover:text-accent-light/70 dark:focus:text-accent-light/70">
+          View All
+        </a>
+      </div>
+
+      <div class="mt-1 font-inter font-medium">
+        <a class="group flex items-center space-x-2 px-2.5 py-2 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100" href="apps-chat.html">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+          </svg>
+          <span>Chat App</span>
+        </a>
+        <a class="group flex items-center space-x-2 px-2.5 py-2 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100" href="apps-filemanager.html">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/>
+          </svg>
+          <span>File Manager App</span>
+        </a>
+        <a class="group flex items-center space-x-2 px-2.5 py-2 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100" href="apps-mail.html">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+          </svg>
+          <span>Email App</span>
+        </a>
+        <a class="group flex items-center space-x-2 px-2.5 py-2 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100" href="apps-kanban.html">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2"/>
+          </svg>
+          <span>Kanban Board</span>
+        </a>
+        <a class="group flex items-center space-x-2 px-2.5 py-2 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100" href="apps-todo.html">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+            <path d="M3 13.2L7.23529 18L17.8235 6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12.5293 18L20.9999 8.40002" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span>Todo App</span>
+        </a>
+        <a class="group flex items-center space-x-2 px-2.5 py-2 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100" href="dashboards-crypto-2.html">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 9a2 2 0 10-4 0v5a2 2 0 01-2 2h6m-6-4h4m8 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
+          </svg>
+
+          <span>Crypto Dashboard</span>
+        </a>
+        <a class="group flex items-center space-x-2 px-2.5 py-2 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100" href="dashboards-banking-2.html">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/>
+          </svg>
+
+          <span>Banking Dashboard</span>
+        </a>
+        <a class="group flex items-center space-x-2 px-2.5 py-2 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100" href="dashboards-crm-analytics.html">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+          </svg>
+
+          <span>Analytics Dashboard</span>
+        </a>
+        <a class="group flex items-center space-x-2 px-2.5 py-2 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100" href="dashboards-influencer.html">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+          </svg>
+
+          <span>Influencer Dashboard</span>
+        </a>
+      </div>
+    </div>
+  </div>
+        <!-- Right Sidebar -->
+        
+
+        <!-- Main Content Wrapper -->
+        <main class="main-content w-full px-[var(--margin-x)] pb-8">
+            <div wire:id="S36wwhWF3S984yo4gkAS" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;S36wwhWF3S984yo4gkAS&quot;,&quot;name&quot;:&quot;admin.product-form&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;path&quot;:&quot;admin\/product\/create-or-update&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;v&quot;:&quot;acj&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;a9f1ae5a&quot;,&quot;data&quot;:{&quot;name&quot;:null,&quot;description&quot;:null,&quot;key_words&quot;:null,&quot;category_id&quot;:null,&quot;sub_category_ids&quot;:[],&quot;commission_rate&quot;:25,&quot;price&quot;:null,&quot;discount&quot;:null,&quot;final_price&quot;:null,&quot;size_ids&quot;:[],&quot;color_ids&quot;:[],&quot;size_quantity&quot;:[],&quot;color_quantity&quot;:[],&quot;color_sku_ids&quot;:[],&quot;color_sku_attr&quot;:[],&quot;color_images&quot;:[],&quot;color_prices&quot;:[],&quot;color_discounts&quot;:[],&quot;size_price&quot;:[],&quot;size_discount&quot;:[],&quot;size_images&quot;:[],&quot;size_avarage_kg&quot;:[],&quot;size_sku_ids&quot;:[],&quot;size_sku_attr&quot;:[],&quot;category_ids&quot;:[],&quot;size_original_price&quot;:[],&quot;size_commison&quot;:[],&quot;color_original_price&quot;:[],&quot;color_commison&quot;:[],&quot;image&quot;:null,&quot;images&quot;:[],&quot;imagess&quot;:[],&quot;edit_id&quot;:null,&quot;is_loaded&quot;:false,&quot;addons&quot;:[],&quot;addon_description&quot;:null,&quot;addon_name&quot;:null,&quot;addon_price&quot;:null,&quot;addon_image&quot;:null,&quot;addon_index&quot;:null,&quot;code&quot;:&quot;PRD6454&quot;,&quot;brand_id&quot;:null,&quot;benifits&quot;:null,&quot;ingredients&quot;:null,&quot;how_to_use&quot;:null,&quot;side_effects&quot;:null,&quot;tips&quot;:null,&quot;aliexpress_item_id&quot;:null,&quot;aliexpress_item_url&quot;:null,&quot;related_product_ids&quot;:[],&quot;counter_sale_end_date&quot;:null,&quot;counter_sale_discount&quot;:0,&quot;sizes_info&quot;:[],&quot;size_commission_prices&quot;:[],&quot;additional_infos&quot;:[],&quot;additional_info&quot;:null,&quot;dev_mode&quot;:false,&quot;provider&quot;:null},&quot;dataMeta&quot;:[],&quot;checksum&quot;:&quot;a76429c60e1fd83558c536b5fc90b7997f8a2de9e8e9241aa13c7be9b71f24f6&quot;}}">
+
+
+    <div class="flex flex-col items-center justify-between py-5 space-y-4 sm:flex-row sm:space-y-0 lg:py-6">
+        <div class="flex items-center space-x-1">
+            <svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M9 13h6m-3-3v6m5 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z">
+                </path>
+            </svg>
+        </div>
+
+    </div>
+
+
+    <form wire:submit.prevent="store">
+
+        <div class="grid grid-cols-12 gap-4 sm:gap-5 lg:gap-6">
+            <div class="col-span-12 lg:col-span-8">
+                <div class="card">
+                    <div class="flex flex-col tabs">
+                        <div class="overflow-x-auto is-scrollbar-hidden">
+                            <div class="border-b-2 border-slate-150 dark:border-navy-500">
+                                <div class="tabs-list -mb-0.5 flex">
+                                    <button
+                                        class="px-4 space-x-2 font-medium border-b-2 rounded-none btn h-14 shrink-0 border-primary text-primary dark:border-accent dark:text-accent-light sm:px-5">
+                                        <i class="text-base fa-solid fa-layer-group"></i>
+                                        <span>General</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 tab-content sm:p-5">
+
+                            <div class="space-y-5">
+                                <div class="grid grid-cols-1 gap-4 sm:grid-cols-3">
+
+                                    <label class="block">
+                                        <span class="font-medium text-slate-600 dark:text-navy-100">Select Brand</span>
+                                        <select  class="form-select mt-1.5 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:bg-navy-700 dark:hover:border-navy-400 dark:focus:border-accent" wire:model="brand_id">
+        <option value="">Choose...</option>
+                                <option value="1"   >
+                HIM4HER</option>
+            </select>
+
+
+                                    </label>
+
+                                    <label class="block">
+                                        <span class="font-medium text-slate-600 dark:text-navy-100">Code</span>
+                                        <input  class="form-input mt-1.5 w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent placeholder:text-slate-400/70" wire:model="code" placeholder="Enter Code" type="text">
+
+
+                                    </label>
+
+
+                                    <label class="block">
+                                        <span class="font-medium text-slate-600 dark:text-navy-100">Name</span>
+                                        <input  class="form-input mt-1.5 w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent placeholder:text-slate-400/70" wire:model="name" placeholder="Enter title" type="text">
+
+
+                                    </label>
+
+                                    
+
+                                </div>
+
+
+
+
+                                <label class="block">
+                                    <span class="font-medium text-slate-600 dark:text-navy-100">
+                                        Description
+                                    </span>
+                                    <div class="ql-header-filled w-full mt-2" wire:ignore>
+    <div class="h-48" x-init="() => {
+        $el._x_quill = new Quill($el, {
+            modules: {
+                toolbar: [
+                    ['bold', 'italic', 'underline', 'strike'], // toggled buttons
+                    ['blockquote', 'code-block'],
+                    [{ header: 1 }, { header: 2 }], // custom button values
+                    [{ list: 'ordered' }, { list: 'bullet' }],
+                    [{ script: 'sub' }, { script: 'super' }], // superscript/subscript
+                    [{ indent: '-1' }, { indent: '+1' }], // outdent/indent
+                    [{ direction: 'rtl' }], // text direction
+                    [{ size: ['small', false, 'large', 'huge'] }], // custom dropdown
+                    [{ header: [1, 2, 3, 4, 5, 6, false] }],
+                    [{ color: [] }, { background: [] }], // dropdown with defaults from theme
+                    [{ font: [] }],
+                    [{ align: [] }],
+                    ['clean'], // remove formatting button
+                ],
+            },
+            placeholder: 'Enter your content...',
+            theme: 'snow',
+        });
+    
+        $el._x_quill.on('text-change', (delta, oldDelta, source) => {
+            window.livewire.find('S36wwhWF3S984yo4gkAS').set('description', $el._x_quill.root.innerHTML);
+        });
+
+        this.addEventListener('add-description', (event) => { 
+            $el._x_quill.root.innerHTML = event.detail;
+        });
+    
+    }">
+    
+    <div class="ql-editor ql-container ql-snow" x-ref="quillEditor" wire:ignore></div>
+    
+  </div>
+</div>
+
+
+<script>
+    
+    window.addEventListener('load', function() {
+         
+         
+             });
+    
+</script>
+
+
+                                </label>
+
+                                
+
+                                
+
+
+
+                                <label class="block">
+                                    <span class="font-medium text-slate-600 dark:text-navy-100">
+                                        Image
+                                    </span>
+                                    <div class="mt-2 filepond fp-bordered" wire:ignore>
+    <input   x-on:remove-images.window="FilePond.removeFiles();" type="file"
+        x-init="() => {
+            $el._x_filepondx = FilePond.create($el, {
+                allowMultiple: false,
+                maxFiles: 4,
+                files: [
+                                    ],
+            });
+            $el._x_filepondx.setOptions({
+                server: {
+                                        process: (fieldName, file, metadata, load, error, progress, abort, transfer, options) => {
+                        window.livewire.find('S36wwhWF3S984yo4gkAS').upload('image', file, load, error, progress)
+                    },
+                    revert: (filename, load, error) => {
+                        window.livewire.find('S36wwhWF3S984yo4gkAS').removeUpload('image', filename, load)
+                    },
+                                    },
+
+            });
+            this.addEventListener('pondReset', e => {
+                $el._x_filepondx.removeFiles();
+            });
+
+            this.addEventListener('pondEdit', e => {
+                $el._x_filepondx.removeFiles();
+                if (e.detail) {
+                    $el._x_filepondx.addFile(e.detail);
+                }
+            });
+
+        }" />
+</div>
+
+
+                                </label>
+
+
+                                <label class="block">
+                                    <span class="font-medium text-slate-600 dark:text-navy-100">Select Sizes</span>
+                                    
+
+                                    <select multiple wire:model="size_ids"  class="mt-1.5 w-full"
+        x-init="$el._tom = new Tom($el, { create: true, sortField: { field: 'text', direction: 'asc' } })">
+        <option value="">Choose...</option>
+                    <option value="1">S</option>
+                    <option value="2">M</option>
+                    <option value="3">L</option>
+                    <option value="4">XL</option>
+                    <option value="5">XXS</option>
+                    <option value="6">XXL</option>
+                    <option value="7">XXXL</option>
+                    <option value="8">4XL</option>
+                    <option value="9">XS</option>
+                    <option value="10">28</option>
+                    <option value="11">30</option>
+                    <option value="12">32</option>
+                    <option value="13">26</option>
+                    <option value="14">34</option>
+                    <option value="15">24</option>
+                    <option value="16">36</option>
+                    <option value="17">38</option>
+                    <option value="18">40</option>
+                    <option value="19">Free Size</option>
+                    <option value="20">LX</option>
+                    <option value="21">SM</option>
+                    <option value="22">5XL</option>
+            </select>
+
+
+                                </label>
+                                
+
+                                <label class="block">
+                                    <span class="font-medium text-slate-600 dark:text-navy-100">Select Colors</span>
+                                    <select multiple wire:model="color_ids"  class="mt-1.5 w-full"
+        x-init="$el._tom = new Tom($el, { create: true, sortField: { field: 'text', direction: 'asc' } })">
+        <option value="">Choose...</option>
+            </select>
+
+
+                                </label>
+
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="mt-2 card">
+                    <div class="card-header">
+                        <div class="p-4 sm:px-5">
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center space-x-2">
+                                    <div
+                                        class="flex items-center justify-center p-1 rounded-lg h-7 w-7 bg-primary/10 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                                        <i class="fa-solid fa-layer-group"></i>
+                                    </div>
+                                    <h4 class="text-lg font-medium text-slate-700 dark:text-navy-100">
+                                        Additional Information
+                                    </h4>
+                                </div>
+
+                                <button type="button" wire:click.prevent="addAdditionalInfo"
+                                    class="text-xs font-medium btn text-primary hover:text-primary-dark dark:text-accent-light dark:hover:text-accent-dark">
+                                    <span>
+                                        Add Info
+                                    </span>
+                                </button>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                
+
+            </div>
+
+            <div class="col-span-12 lg:col-span-4">
+
+                <div class="col-span-12 lg:col-span-4">
+                    <div class="p-4 space-y-5 card sm:p-5">
+
+                        
+
+                        <label class="block">
+                            <span class="font-medium text-slate-600 dark:text-navy-100">Select Categories</span>
+                            <select multiple wire:model="category_ids"  class="mt-1.5 w-full"
+        x-init="$el._tom = new Tom($el, { create: true, sortField: { field: 'text', direction: 'asc' } })">
+        <option value="">Choose...</option>
+                    <option value="1">JEANS</option>
+                    <option value="2">SHIRTS</option>
+                    <option value="3">TOPS</option>
+                    <option value="4">BAG</option>
+                    <option value="5">ACCESSORIES</option>
+                    <option value="6">TRACKS</option>
+                    <option value="7">JACKET</option>
+                    <option value="8">GIFTS </option>
+            </select>
+
+
+                        </label>
+
+                        <label class="block">
+                            <span class="font-medium text-slate-600 dark:text-navy-100">Select Sub Category</span>
+                            <select multiple wire:model="sub_category_ids"  class="mt-1.5 w-full"
+        x-init="$el._tom = new Tom($el, { create: true, sortField: { field: 'text', direction: 'asc' } })">
+        <option value="">Choose...</option>
+            </select>
+
+
+                        </label>
+
+
+
+                        
+
+                        <label class="block">
+                            <div class="flex justify-between">
+                                <span class="font-medium text-slate-600 dark:text-navy-100">
+                                    Images
+                                </span>
+                                <button type="button" wire:click="resetImages"
+                                    class="text-xs font-medium btn text-primary hover:text-primary-dark dark:text-accent-light dark:hover:text-accent-dark">
+                                    <span>
+                                        Reset
+                                    </span>
+                            </div>
+
+                            <div class="mt-2 filepond fp-bordered" wire:ignore>
+    <input  multiple x-on:remove-images.window="FilePond.removeFiles();" type="file"
+        id="69832afeaee48" x-init="() => {
+            $el._x_filepond = FilePond.create($el, {
+                allowMultiple: true,
+                files: [
+                                    ],
+            });
+            $el._x_filepond.setOptions({
+                server: {
+                                        process: (fieldName, file, metadata, load, error, progress, abort, transfer, options) => {
+                        window.livewire.find('S36wwhWF3S984yo4gkAS').upload('images', file, load, error, progress)
+                    },
+                    revert: (filename, load, error) => {
+                        window.livewire.find('S36wwhWF3S984yo4gkAS').removeUpload('images', filename, load)
+                    },
+                                    },
+            });
+            this.addEventListener('removeFiles', e => {
+                $el._x_filepond.removeFiles();
+            });
+
+            this.addEventListener('images', e => {
+                $el._x_filepond.addFile(e.detail);
+            });
+
+
+            this.addEventListener('pondEdit', e => {
+                $el._x_filepond.removeFiles();
+                if (e.detail) {
+                    $el._x_filepond.addFile(e.detail);
+                }
+            });
+
+        }" />
+</div>
+
+
+                        </label>
+
+                        <label class="block">
+                            <span class="font-medium text-slate-600 dark:text-navy-100">
+                                Keywords
+                            </span>
+                            <textarea  class="form-textarea mt-1.5 w-full resize-none rounded-lg border border-slate-300 bg-transparent p-2.5 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent placeholder:text-slate-400/70" wire:model="key_words" placeholder="Enter meta keywords">
+</textarea>
+
+                        </label>
+
+                        <label class="block">
+                            <span class="font-medium text-slate-600 dark:text-navy-100">
+                                Related Products
+                            </span>
+                            <select multiple wire:model.defer="related_product_ids"  class="mt-1.5 w-full"
+        x-init="$el._tom = new Tom($el, { create: true, sortField: { field: 'text', direction: 'asc' } })">
+        <option value="">Choose...</option>
+                    <option value="1">knitted fabric Structured Regular Fit Full Sleeves Shirt</option>
+                    <option value="2">CHILLY MEN&#039;S SHIRT/MEN&#039;S SHIRT-BEST SELLER/MEN FASHION/SHIRT/STRIPES/STRIPES SHIRT/MEN&#039;S TOP WEAR/SHIRT UNDER 299/MEN&#039;S STRIPES SHIRT /SHIRT FOR MEN/COTTON /MEN&#039;S SHIRT/MALE CLOTHING #TREND /MENS SHIRT NEW/BESTSELLERS/MEN TOP WEAR </option>
+                    <option value="3">RODEIZ PREMIUM MEN SHIRTS</option>
+                    <option value="4"> MEN&#039;S SHIRT/MEN&#039;S SHIRT-BEST SELLER/MEN FASHION/SHIRT/STRIPES/STRIPES SHIRT/MEN&#039;S TOP WEAR/SHIRT UNDER 299/MEN&#039;S STRIPES SHIRT /SHIRT FOR MEN/COTTON /MEN&#039;S SHIRT/MALE CLOTHING #TREND /MENS SHIRT NEW/BESTSELLERS/MEN TOP WEAR </option>
+                    <option value="6">Latest Design Cotton Shirt for Men</option>
+                    <option value="7">Fine quality cotton blend formal, casual , partywear, full sleeve shirt for men.</option>
+                    <option value="8"> Men’s Premium Knitted Structured Shirt – Full Sleeve | Casual &amp; Partywear – Regular Fit</option>
+                    <option value="9">MENS RELAX  FIT CASUAL  SHIRT</option>
+                    <option value="10">Cotton Shorts Men | Denim Jeans Men | Formal Shirts Men | Formal Trousers Men | Grey Blazers | Leather Jackets Men | Men Active Shorts | Men Sweaters | Men Trunks | Printed Briefs Men | Printed Tshirts | Sleeveless Sweatshirts Men | Sport Jackets Men | Sport Tracksuits Men | Vests | Wool Jackets Men</option>
+                    <option value="11">CREPARO SKY BLUE TAM TAM CHEK SHIRT/  MENS SHIRT/ MENS SHIRTS -BEST SELLERS / MENS FASHION / SHIRT / CASUAL WEAR - MEN  /  CHECKED SHIRTS / MENS TOP WEAR /   REGULAR SIZE  SHIRTS / MENS CHECKED SHIRTS / SHIRTS FOR MEN  /COTTON 17 /MENS SHIRTS / MALE CLOTHING #TREND</option>
+                    <option value="12">COTTON PARTY WEAR SHIRT FOR MEN,S FULL SLEEVES | SHIRT FOR MEN |   Pretty Sensational Men Shirts </option>
+                    <option value="14">Men&#039;s Regular Fit, Trendy Floral Printed, Pure Cotton, Full</option>
+                    <option value="15">Stylish Men’s Checked Full Sleeve Shirt</option>
+                    <option value="16">Men&#039;s Light Yellow &amp; White Checked Casual Cotton Regular Fit Full Sleeve Shirt</option>
+                    <option value="17">MENS DENIM SHIRTS LIGHT BLUE</option>
+                    <option value="18">Premium Quality Cotton Linen Shirt for Men</option>
+                    <option value="19">Pretty Latest Men Shirts</option>
+                    <option value="20">Men Yellow &amp; White Regular Fit Gingham Checked Casual Shirt</option>
+                    <option value="21">Men Regular Fit Self Design Spread Collar Casual Shirt</option>
+                    <option value="22">women tartan checked spread collar cotton shirt</option>
+                    <option value="23">stylish shirt woman &amp; girl blue </option>
+                    <option value="24">Pretty Stylish Women Coffee Shirt</option>
+                    <option value="25">Stylish Fashionable Bottom Green Women Shirt</option>
+                    <option value="26">Pretty Feminine Women Shirts</option>
+                    <option value="27">Trending Shirts For Women</option>
+                    <option value="28"> Women Winter Check Shirts Pink</option>
+                    <option value="29">#132 cotrise trouser for woman </option>
+                    <option value="30">Stylish Latest Women Shirts</option>
+                    <option value="31">Classy Fashionista Women Shirts</option>
+                    <option value="32">Trendy stripes semi formal women shirt</option>
+                    <option value="33">WOMEN WIDE LEG JEANS </option>
+                    <option value="34">New trendy Wishkar Wash Jeans</option>
+                    <option value="35">WOMEN&#039;S CLASSIC HIGH-RISE LIGHT BLUE  JEANS </option>
+                    <option value="36">Whisker wide leg jeans for womens
+</option>
+                    <option value="37">Women High WaisT Whisker dual tone Wide Leg Jeans</option>
+                    <option value="38">New trendy Wishkar Wash Jeans</option>
+                    <option value="39">Baggy Women High Waist Wide Leg Denim Light Blue Jeans</option>
+                    <option value="40">Womens Wide Leg Cream-_</option>
+                    <option value="41">H&amp;H ICE BLUE DENIM WIDE LEG DENIM JEANS</option>
+                    <option value="42">H&amp;H VINTAGE TINT WASHED WOMENS DENIM JEANS</option>
+                    <option value="43">Whisker wide leg for womens</option>
+                    <option value="44">Whisker wide leg for womens</option>
+                    <option value="45">Whisker wide leg for womens</option>
+                    <option value="46">Wide Leg Jenas For Womens</option>
+                    <option value="47">baggy mens dark GREY jeans//baggy lose fit man jeans</option>
+                    <option value="48">baggy jeans for mens</option>
+                    <option value="49">baggy jeans for mens</option>
+                    <option value="50">baggy jeans for mens</option>
+                    <option value="51">Baggy jeans for mens</option>
+                    <option value="52">Veltick Boot-Leg Mid Rise Dark Blue Men Denim Jeans</option>
+                    <option value="53">MENS BAGGY WHISKER GREEN PURE DENIM JEANS</option>
+                    <option value="54">Trendy Stretchable Lycra Crop Top for Women</option>
+                    <option value="55">Stylish Elegant Women Tops &amp; Tunics</option>
+                    <option value="56">Black-White Collar Half Sleeve Crop Top</option>
+                    <option value="57">Stylish Crop tshirt for women and girls with zipper</option>
+                    <option value="58">Stylish Half Sleeves Sticker Printed Collar Top And Tunics</option>
+                    <option value="60">STYLISH CROP TOP COMBO OF 3</option>
+                    <option value="61">corp top women biege , girl top,  stylish women top , trending women top  </option>
+                    <option value="62">top trending product || crop top || crop top shirt || top for women || top shirt for women|| women top || crop top for girls || crop top party wear</option>
+                    <option value="63">Crop Top Meowtown Design </option>
+                    <option value="64">This trendy printed crop top for women and girls is a stylish casual and party wear summer streetwear piece made from comfortable cotton fabric with chic graphic print design.</option>
+                    <option value="65">Korean Style T-shirt with polo design to wear a collage party office holiday and beach. </option>
+                    <option value="66">Trending Women Crop Top White</option>
+                    <option value="67">Solid Bow Knot Round Neck Half Sleeves Crop Top For Women</option>
+                    <option value="68">Fashionble crop top Casual top</option>
+                    <option value="69">Women&#039;s Casual Ribbed Short Sleeve Crop Tee</option>
+                    <option value="70">Women Crop top Graphic Printed  Crop </option>
+                    <option value="71">Girl blue lace trim ribbed top</option>
+                    <option value="72">WOMENS TANK TOP</option>
+                    <option value="73">Trendy Ribbed Cami Crop Top for Women | Stylish Spaghetti Strap Sleeveless Top | Western Wear Summer Casual Crop Tank Top</option>
+                    <option value="74">GOPALJI_CAMISOLE MAROON</option>
+                    <option value="75">Women&#039;s Ribbed Halter Crop Top – Sleeveless Stretchy Camisole, Casual Summer Tank in White, Crew Neck , Solid , Crop Tank Top By Istyle Can</option>
+                    <option value="76"> Halter Round Neck Sleeveless Ribbed Top</option>
+                    <option value="77">Trendy Sleeveless Crop Top With Lace Insert </option>
+                    <option value="78">Square Neck Crochet White Crop Top</option>
+                    <option value="79">Women Sexy Crop Top Cami Top Sleeveless Floral Print Underwear Wireless Inside and Outside Wear Wrap Chest Tank Top</option>
+                    <option value="80">Metal pom pom bralette top</option>
+                    <option value="81">Womens&#039;s Solid Stretchable Draped Crop Top White</option>
+                    <option value="82">Stylish Women Ribbed Sleeveless Crop Top with Button Detail</option>
+                    <option value="83">canvas bag cotton bag Ladies purse handbag women Ladies bag, women bag , Handbag for women , ladies purse , side bag office bag, tote bag for women , girls leather bag , handbag women , ladies purse, big purse women , black purse, black ladies bag, teacher bag , side bag women ,tote bag</option>
+                    <option value="84">New design Fancy Printed Shoulder bag || Women tote handbags || Printed bag || Stylish Women Shopping bag || bag for women || tote bag</option>
+                    <option value="85">“Sunshine Printed Women Tote Handbag with Zipper - Lightweight Shoulder Bag for College, Office &amp; Shopping”</option>
+                    <option value="86">loopify Handbag Shoulder Bag - tote bag ,Versatile Unisex Tote Bag for Casual, College, Travel, Shopping, and More: Stylish , sunflower, love, flower &amp; Bag for Girls and Boys - Explore Now! Affordable, Trendy, Durable, Eco-Friendly, Multi-Purpose, Fashionable, Daily Use, Top-Notch Quality.</option>
+                    <option value="87">BLACK TOTE BAG WOMEN</option>
+                    <option value="88">White Tote Bag for Girls | Printed Canvas Zip 14×16</option>
+                    <option value="89">Gorgeous Attractive Women Handbag, Handbag Shoulder Bag - tote bag ,Versatile Unisex Tote Bag for Casual, College, Travel, Shopping, and More, Affordable, Trendy, Durable, Eco-Friendly, Multi-Purpose, Fashionable, Daily Use, Top-Notch Quality.</option>
+                    <option value="90">New design Fancy Printed Shoulder bag || Women tote handbags || Printed bag || Stylish Women Shopping bag || bag for women || tote bag</option>
+                    <option value="91">Zipper /Zip Canvas Tote Bag for Women | Printed Multipurpose Cotton Bags | Cute Hand Bag for Girls (A Bookworms Belongings Prints)</option>
+                    <option value="92">Aysha Collection Black Canvas Tote Bag with Floral Butter-fly Print and Appreciate Yourself Quote, Shoulder Handbag for Daily Use, Shopping, College, Travel, Lightweight, Durable, Eco-Friendly Women’s Carry Bag.</option>
+                    <option value="93">White TOTE BAG WOMEN</option>
+                    <option value="94">Trendy &quot;Awesome Colour Girl in Park&quot; Print</option>
+                    <option value="95">Purrfect Carry-All: Adorable Cats Canvas Tote&quot;</option>
+                    <option value="96">Handbag Shoulder Bag | tote bag for women | Canvas Bag | Ladies Purse</option>
+                    <option value="97">Hand Bag Shoulder Bag || Tote Bags || Women Bag || Hand Bag For Girls || Hand Bags || Tote Bags For Women Cotton || Tote Hand Bags || Tote Bag For Women College || Bag</option>
+                    <option value="98">Eco-Friendly Cotton Tote Bag | Durable &amp; Re usable Shopping Bag | Stylish Handbag for Every day Use</option>
+                    <option value="99">Hand Bag Shoulder Bag || Tote Bags || Women Bag || Hand Bag For Girls || Hand Bags || Tote Bags For Women Cotton || Tote Hand Bags || Tote Bag For Women College || Bag</option>
+                    <option value="100">tote bag for women canvas tote bag the tote bag tote bag for women college tote bag for office women tote bag with zipper college tote bag for women tote bag for women stylish handbag for women tote handbag </option>
+                    <option value="101">Eco-Friendly Cotton Tote Bag | Durable &amp; Re usable Shopping Bag | Stylish Handbag for Every day Use</option>
+                    <option value="102">Eco-Friendly Cotton Tote Bag | Durable &amp; Re usable Shopping Bag | Stylish Handbag for Every day Use</option>
+                    <option value="103">✨ Stylish Canvas Tote Bag with Pink Bow Girl DTF Print ✨</option>
+                    <option value="104">New women  Designer  Printed Tote Bag for Women | Fancy, Stylish, and Multi-Purpose Handbag</option>
+                    <option value="105">Stylish Printed Tote Bag for Women | Trendy Shoulder Handbag | Large Eco-Friendly Canvas Bag for College, Office, Shopping &amp; Travel | Durable Zipper Tote | Daily Use Handbag for Girls &amp; Ladies</option>
+                    <option value="106"> “UGH” Blue Charm Tote – Classy, Cools &amp; College-Ready</option>
+                    <option value="107">Trendy Versatile Canvas Tote Bag for Women &amp; Girls | Printed Multipurpose Cotton Bags | Adorable Hand Bag for Girls (Flower)</option>
+                    <option value="108">Barbie-core Bow Canvas Tote – Bold, Pink &amp; Beautiful </option>
+                    <option value="109"> Stylish Tote Bag For Ladies And Girls | Office Bag women</option>
+                    <option value="110">Stylish Canvas Tote Bag for Women with Zip | Large College &amp; Office Tote Bag for Girls | Laptop Compartment, Multi-Pocket Cotton Tote Bag | Big Size Daily Use Shoulder Bag for Travel, Work &amp; Shopping</option>
+                    <option value="111">Women Tote Bag Versatile Unisex Canvas Tote Bag for Casual, College, Travel: Stylish ,Quote, love, flower &amp; Canvas Tote Bag for Girls and Boys - Explore Now! Affordable, Trendy, Durable, Eco-Friendly, Large Capacity, Fashionable, Daily Use, Top-Notch Quality,</option>
+                    <option value="112">Eco-Friendly Cotton Tote Bag | Durable &amp; Re usable Shopping Bag | Stylish Handbag for Every day Use</option>
+                    <option value="113">Eco-Friendly Cotton Tote Bag | Durable &amp; Re usable Shopping Bag | Stylish Handbag for Every day Use</option>
+                    <option value="114">Eco-Friendly Cotton Tote Bag | Durable &amp; Re usable Shopping Bag | Stylish Handbag for Every day Use</option>
+                    <option value="115">TSANTA Printed Canvas Tote Bag | Trendy Canvas Tote Bag for Every Occasion | College Bag</option>
+                    <option value="116">Gold Plated Triple Layered Stars and Moon Pendant Necklace for Women and Girls</option>
+                    <option value="117">Vassaley Necklaces &amp; Chains</option>
+                    <option value="118">Three Layered Star Studs Pendant Necklace</option>
+                    <option value="119">Vassaley Double Layered Pearl Pendant Silver Necklace For Girls And Women</option>
+                    <option value="120">Silver-plated Star Punk Style Linked Circles Choker Necklace For Girls And Women</option>
+                    <option value="121">Rose gold two western chain necklace for girls and women copper plates alloy necklace western locket for women &amp; girls </option>
+                    <option value="122">Snake Chain For Girls &amp; Women Anti Tarnish Chain Gold-plated Plated Stainless Steel Necklace</option>
+                    <option value="123">Snake chain for boys trending men chain man chain stainless steel snake chain for girls woman and man </option>
+                    <option value="124">LENNOX INTERNATIONAL Imported Unisex Sports Cap Trendy Design Comfortable Adjustable Cap with Stylish Design For Summer .</option>
+                    <option value="125">ZEVORA Men&#039;s Grey Cotton Baseball Cap with Adjustable Back Closure | Unisex Cap</option>
+                    <option value="126">PACK OF 1 NY  LOGO DUAL COLOR STYLISH CAP/Trending, Modern  Cap For Girls &amp; Boys/Sports Baseball Adjustable Cap For UNISEX PACK OF 1</option>
+                    <option value="127">LENNOX INTERNATIONAL Imported Unisex Sports Cap Trendy Design Comfortable Adjustable Cap with Stylish Design For Summer .</option>
+                    <option value="128">C brown embroiedry cap </option>
+                    <option value="129">Quality Head Caps for Men, Unisex Sports Caps with Adjustable Strap, Summer Cap for All Sports, Gym, Men &amp; Women, Sports Hats, Cotton Caps, Baseball Cap, Hiking Cap (Blue)</option>
+                    <option value="130"> Stylish Cotton Adjustable Baseball Cap for Men and Women, Embroidered Unisex Cap for Summers_Capricon Maroon</option>
+                    <option value="131">Visit the Handcuffs Store Handcuffs Head Caps for Men Unisex Caps with Adjustable Strap Hats for Summer | Caps Men for All | Sports Cap for Womens | Gym Caps for Men Women | Sports Headwear (Grey)</option>
+                    <option value="132">AALYA brooklyn men cap in brown colour with adjustable strap / trendy cap / trendy design / men cap </option>
+                    <option value="133">Quality Stylish Cotton Adjustable Baseball Cap for Men and Women, Embroidered Unisex Cap for Summers (Black)</option>
+                    <option value="134">Quality Unisex Baseball Caps Adjustable Stylish Sun Protective Cap for Men Women, Summer Caps, Adjustable Caps, Premium Quality Cap (Black)</option>
+                    <option value="135">SUMMER CAPS FOR UNISEX</option>
+                    <option value="136">brown easy </option>
+                    <option value="137">LENNOX INTERNATIONAL Imported Unisex Sports Cap Trendy Design Comfortable Adjustable Cap with Stylish Design For Summer .</option>
+                    <option value="142">NFTrenzify Relaxed Solid Men&#039;s TrackPants</option>
+                    <option value="143">Men Black Track Plant with White Side Stripe | Lycra Fabric | Regular Fit | Casual &amp; Sports Wear</option>
+                    <option value="144">Trendy Men&#039;s Trackpants....Comfortable Activewear for Gym, Running &amp; Casual Wear | Men’s Black Trackpants with Side Pocket | Comfortable, Breathable &amp; Trendy Design | Trendy Trackpants for Men | Black Sports Wear for Gym, Yoga &amp; Daily Wear</option>
+                    <option value="145">mens track pant</option>
+                    <option value="146">(PACK OF 1)Men’s Polycotton Baggy Fit Casual Pant with Soft Breathable Fabric Designed for All-Day Comfortable and Every day Wear</option>
+                    <option value="147">Men &amp; Women  Striped Black and Grey Oversized Track Pants, For Gym And Sports</option>
+                    <option value="148">Soft and comfortable trackpants for daily wear or offering stretch breathability and relaxed fit for gym or casual activities</option>
+                    <option value="149">Men Self Design Black Track Pants</option>
+                    <option value="150">Men Regular Fit Track Pants | Everyday Wear Comfortable Bottom</option>
+                    <option value="151">(PACK OF 1)Men’s Polycotton Baggy Fit Pant Crafted with Premium Fabric Blend for Long-Lasting Comfortable and Daily Stylish</option>
+                    <option value="152">Cotton Blend Bagggy Wife Fit Trackpant for Man</option>
+                    <option value="153">Track Pants for Men | Lycra Stretchable Joggers for Men | Full Elastic Gym Track Pants for Running, Workout &amp; Casual Wear | Premium Comfortable Sports Cargo Track Pant For Boy &amp; Men.</option>
+                    <option value="154">Men’s Textured Stretch Loose Fit Track Pants with Contrast Piping | Thick Jogger Fit Trousers for Gym, Home &amp; Travel</option>
+                    <option value="155">Men Coffee Brown Side Stripe Track Pant | Stylish Back Side Look | Comfortable Daily Wear Lower</option>
+                    <option value="156">Men Cotton Fleece Loose Fit Joggers | Winter Track Pants &amp; Casual Lowers with Elastic Waist | Side Pockets, Tape Detail &amp; Contrast Piping</option>
+                    <option value="157">Men’s Korean Fashion Track Pants | Stretchable Street Fashion Loose Fit Jogger Trousers with Two-Tone Panels, Curved Stripe Seams &amp; Adjustable Waist with Drawcord</option>
+                    <option value="158">TRENDY  WIDE LAG BAGGY STRAIGHT FIT  STRIPE  WOMEN TROUSER  </option>
+                    <option value="159">Women&#039;s Oversized Street Joggers | Black Relaxed Fit Lower with Pockets</option>
+                    <option value="160">Women Black High Waist Track Pants with White Side Stripes | Wide Leg Palazzo Joggers | Casual &amp; Gym Wear</option>
+                    <option value="161">Trendy Modern Women Women Trousers </option>
+                    <option value="162">New Trousers Pant </option>
+                    <option value="163">summer special comfy pant</option>
+                    <option value="164">women trauser </option>
+                    <option value="165">Women solid strip lycra jogers stylish pants</option>
+                    <option value="166">Girls solid stylish ns jogers pants</option>
+                    <option value="167">Trouser For Girl || Trouser for women || Trouser for Party ||Daily Use Trouser || Trouser For Sports</option>
+                    <option value="168">Upper Jacket, Jacket for men, stylish winter jacket for men/Winchester jacket, lapataclub upper black jacket</option>
+                    <option value="169">cream &amp; black jacket</option>
+                    <option value="170">Premium Lightweight Black Jacket for Men – Ultra-Soft Fabric, Modern Perfect for Winter Layering, Casual Outings, Travel, Streetwear Fashion, Durable Stitching</option>
+                    <option value="171">Langrey Men Solid Black Biker Jacket</option>
+                    <option value="172">Smokestack Apparel</option>
+                    <option value="173">Heritage Wear Denim Jacket Blue</option>
+                    <option value="174">Black Jacket korean stylish and treandy for men&#039;s</option>
+                    <option value="175">Zipper Denim Jacket</option>
+                    <option value="176">IMPERION AesthMen’s Premium Faux Leather Jacket | Stylish Black &amp; Brown Aesthetic Jacket | Casual &amp; Party Wear Biker Jacket for Men</option>
+                    <option value="177">Bomber Jacket For Girl&#039;s And Women&#039;s, Trendy Jacket, Jacket ,Stylish Winter Jacket,Stylish Zipper Jacket, Graceful Jacket,Long Sleeves Jacket For Girl&#039;s And Women&#039;s.Solid Black Jacket For Women&#039;s.</option>
+                    <option value="178">Trendy Elegant Women Sweatshirts</option>
+                    <option value="179">Bomber Jacket For Girl&#039;s And Women&#039;s, Trendy Jacket, Jacket ,Stylish Winter Jacket,Stylish Zipper Jacket, Graceful Jacket,Long Sleeves Jacket For Girl&#039;s And Women&#039;s.Solid Black Jacket For Women&#039;s.</option>
+                    <option value="180">Stylish Women Winter Puffer Jacket </option>
+                    <option value="181">New woolan far shirt dubble pocket jacket jeep</option>
+                    <option value="182">Crop_Hoodie</option>
+                    <option value="183">WOMEN TRENDY CROP HOOD JACKET</option>
+                    <option value="184">Ladies Classic Jacket</option>
+                    <option value="185">Stylish women Winter Puffer Jacket for Women</option>
+                    <option value="186">New Trending Full Sleeves Dark Grey Jacket For Girls</option>
+                    <option value="187"> Solid Single Breasted Casual Women Blazer (Black)  </option>
+                    <option value="189">Stylish Latest Women Jackets for Winter</option>
+                    <option value="190">Stylish Jacket</option>
+                    <option value="192">Stylish Canvas Shoulder Crossbody Bag for Women | Korean Trend Hobo Bag for Gen Z</option>
+                    <option value="200">PERIOD CRAMP MASSAGER</option>
+                    <option value="203">GIFTS </option>
+                    <option value="204">GIFT BOX </option>
+                    <option value="205">GIFT BOX</option>
+                    <option value="206">BOUQUET </option>
+                    <option value="207">BOUQUET</option>
+                    <option value="208">BOUQUET</option>
+            </select>
+
+
+                        </label>
+
+                        <label class="block">
+                                <span>Counter Sale Discount:</span>
+                                <input  class="form-input mt-1.5 w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent" wire:model="counter_sale_discount" placeholder="Enter counter_sale_discount" type="number">
+
+
+                            </label>
+
+                            <label class="block">
+                                <span>Counter Sale End In:</span>
+                                <input  class="form-input mt-1.5 w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent" wire:model="counter_sale_end_date" placeholder="Enter counter_sale_end_date" type="date">
+
+
+                            </label>
+
+                        <div class="flex justify-center space-x-2">
+                            
+                            <button type="submit"
+                                class="btn min-w-[7rem] bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                                <div wire:loading wire:target="store"
+                                    class="mr-1 spinner h-4 w-4 animate-spin rounded-full border-[3px] border-white-500 border-r-transparent dark:border-white-500 dark:border-r-transparent">
+                                </div> Save
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+                
+
+            </div>
+
+
+
+
+        </div>
+    </form>
+
+
+    <div x-data="{ showModal: false }" class="inline-flex">
+        <button @click="showModal = true" id="openModal"
+            class="hidden w-8 h-8 p-0 rounded-full btn hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+            
+        </button>
+
+        
+        <div class="fixed inset-0 z-[100] flex flex-col items-center justify-center overflow-hidden px-4 py-6 sm:px-5"
+            x-show="showModal" role="dialog" @keydown.window.escape="showModal = false">
+            <div class="absolute inset-0 transition-opacity duration-300 bg-slate-900/60" @click="showModal = false"
+                x-show="showModal" x-transition:enter="ease-out" x-transition:enter-start="opacity-0"
+                x-transition:enter-end="opacity-100" x-transition:leave="ease-in"
+                x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0"></div>
+            <div class="relative w-full max-w-lg overflow-auto transition-all duration-300 origin-top bg-white rounded-lg dark:bg-navy-700"
+                x-show="showModal" x-transition:enter="easy-out" x-transition:enter-start="opacity-0 scale-95"
+                x-transition:enter-end="opacity-100 scale-100" x-transition:leave="easy-in"
+                x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95">
+                <div class="flex justify-between px-4 py-3 rounded-t-lg bg-slate-200 dark:bg-navy-800 sm:px-5">
+                    <h3 class="text-base font-medium text-slate-700 dark:text-navy-100">
+                        Add / Update Products
+                    </h3>
+                    <button @click="showModal = !showModal"
+                        class="btn -mr-1.5 h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="px-4 py-4 sm:px-5">
+                    <p>
+                        Fill in the information below to add or update
+                    </p>
+                    <form wire:submit.prevent="addOnUpdateOrCreate">
+                        <div class="mt-4 space-y-4">
+
+
+                            <label class="block">
+                                <span>Name:</span>
+                                <input  class="form-input mt-1.5 w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent" wire:model="addon_name" placeholder="Enter Title" type="text">
+
+
+                            </label>
+
+                            <label class="block">
+                                <span>Price:</span>
+                                <input  class="form-input mt-1.5 w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent" wire:model="addon_price" placeholder="Enter Price" type="number">
+
+
+                            </label>
+
+
+
+                            <label class="block">
+                                <span>Description:</span>
+                                <textarea  class="form-textarea mt-1.5 w-full resize-none rounded-lg border border-slate-300 bg-transparent p-2.5 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent placeholder:text-slate-400/70" wire:model="addon_description" placeholder="Enter Description">
+</textarea>
+
+                            </label>
+
+                            <label class="block">
+                                <span>Image:</span>
+                                <div class="mt-2 filepond fp-bordered" wire:ignore>
+    <input   x-on:remove-images.window="FilePond.removeFiles();" type="file"
+        x-init="() => {
+            $el._x_filepondx = FilePond.create($el, {
+                allowMultiple: false,
+                maxFiles: 4,
+                files: [
+                                    ],
+            });
+            $el._x_filepondx.setOptions({
+                server: {
+                                        process: (fieldName, file, metadata, load, error, progress, abort, transfer, options) => {
+                        window.livewire.find('S36wwhWF3S984yo4gkAS').upload('addon_image', file, load, error, progress)
+                    },
+                    revert: (filename, load, error) => {
+                        window.livewire.find('S36wwhWF3S984yo4gkAS').removeUpload('addon_image', filename, load)
+                    },
+                                    },
+
+            });
+            this.addEventListener('pondReset', e => {
+                $el._x_filepondx.removeFiles();
+            });
+
+            this.addEventListener('pondEdit', e => {
+                $el._x_filepondx.removeFiles();
+                if (e.detail) {
+                    $el._x_filepondx.addFile(e.detail);
+                }
+            });
+
+        }" />
+</div>
+
+
+                            </label>
+
+                            <div class="space-x-2 text-right">
+                                <a @click="showModal = false" id="closeModal"
+                                    class="btn min-w-[7rem] rounded-full border border-slate-300 font-medium text-slate-800 hover:bg-slate-150 focus:bg-slate-150 active:bg-slate-150/80 dark:border-navy-450 dark:text-navy-50 dark:hover:bg-navy-500 dark:focus:bg-navy-500 dark:active:bg-navy-500/90">
+                                    Cancel
+                                </a>
+                                <button type="submit"
+                                    class="btn min-w-[7rem] rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                                    <div wire:loading wire:target="addOnUpdateOrCreate"
+                                        class="mr-1 spinner h-4 w-4 animate-spin rounded-full border-[3px] border-white-500 border-r-transparent dark:border-white-500 dark:border-r-transparent">
+                                    </div> Apply
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            Livewire.on('openModal', function(msg) {
+                document.getElementById('openModal').click();
+            });
+
+            Livewire.on('closeModal', function(msg) {
+                document.getElementById('closeModal').click();
+            });
+        });
+
+        $('#edit').click(function() {
+            document.getElementById('updateOrCreate').click();
+        })
+    </script>
+
+</div>
+
+<!-- Livewire Component wire-end:S36wwhWF3S984yo4gkAS -->
+        </main>
+    </div>
+    <!--
+            This is a place for Alpine.js Teleport feature
+            @see https://alpinejs.dev/directives/teleport
+          -->
+    <div id="x-teleport-target"></div>
+    <template id="custom-html-notif" @click="$notification({content:'#custom-html-notif',duration:3000})">
+    <div class="flex max-w-xs overflow-hidden rounded-lg bg-white dark:bg-navy-700 font-normal shadow">
+        <div class="flex items-start p-4">
+            <div class="avatar bg-primary text-white rounded-full flex items-center justify-center mt-2">
+                <i id="icon" class="fa fa-check-circle  text-xl text-center"></i>
+            </div>
+        </div>
+        <div class="p-2">
+            <div class="flex items-center justify-between space-x-2">
+                <h5 id="title-notification" class="font-medium tracking-wide line-clamp-1 lg:text-base">
+                </h5>
+                <button data-notification-remove class="btn h-7 w-7 rounded-full p-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+            <p id="message-notification" class=""> </p>
+            
+        </div>
+    </div>
+</template>
+    <div x-data="{showModal:false}">
+  
+    <button @click="showModal = true" id="success-modal" 
+        class="hidden btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+   </button>
+  
+    <template x-teleport="#x-teleport-target">
+      <div
+        class="fixed inset-0 z-[100] flex flex-col items-center justify-center overflow-hidden px-4 py-6 sm:px-5"
+        x-show="showModal"
+        role="dialog"
+        @keydown.window.escape="showModal = false"
+      >
+        <div
+          class="absolute inset-0 bg-slate-900/60 backdrop-blur transition-opacity duration-300"
+          @click="showModal = false"
+          x-show="showModal"
+          x-transition:enter="ease-out"
+          x-transition:enter-start="opacity-0"
+          x-transition:enter-end="opacity-100"
+          x-transition:leave="ease-in"
+          x-transition:leave-start="opacity-100"
+          x-transition:leave-end="opacity-0"
+        ></div>
+        <div
+          class="relative max-w-lg rounded-lg bg-white px-4 py-10 text-center transition-opacity duration-300 dark:bg-navy-700 sm:px-5"
+          x-show="showModal"
+          x-transition:enter="ease-out"
+          x-transition:enter-start="opacity-0"
+          x-transition:enter-end="opacity-100"
+          x-transition:leave="ease-in"
+          x-transition:leave-start="opacity-100"
+          x-transition:leave-end="opacity-0"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="inline h-28 w-28 text-success"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+            ></path>
+          </svg>
+
+          <div class="mt-4">
+            <h2 class="text-2xl text-slate-700 dark:text-navy-100" id="title-success">
+            </h2>
+            <p class="mt-2" id="message-success">
+              
+            </p>
+            <button
+              @click="showModal = false"
+              class="btn mt-6 bg-success font-medium text-white hover:bg-success-focus focus:bg-success-focus active:bg-success-focus/90"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </template>
+  </div>    <div x-data="{ showModal: false }">
+
+    <button @click="showModal = true" id="confirm-modal"
+        class="hidden btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+    </button>
+
+    <template x-teleport="#x-teleport-target">
+        <div class="fixed inset-0 z-[100] flex flex-col items-center justify-center overflow-hidden px-4 py-6 sm:px-5"
+            x-show="showModal" role="dialog" @keydown.window.escape="showModal = false">
+            <div class="absolute inset-0 bg-slate-900/60 backdrop-blur transition-opacity duration-300"
+                @click="showModal = false" x-show="showModal" x-transition:enter="ease-out"
+                x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="ease-in"
+                x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0"></div>
+            <div class="relative max-w-lg rounded-lg bg-white px-4 py-10 text-center transition-opacity duration-300 dark:bg-navy-700 sm:px-5"
+                x-show="showModal" x-transition:enter="ease-out" x-transition:enter-start="opacity-0"
+                x-transition:enter-end="opacity-100" x-transition:leave="ease-in" x-transition:leave-start="opacity-100"
+                x-transition:leave-end="opacity-0">
+                
+                
+                <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" class="inline h-28 w-28 text-success mr-4" viewBox="0 0 595.275 841.891" style="enable-background:new 0 0 595.275 841.891;" xml:space="preserve">
+                  <g>
+                    <path style="fill:#FFFFFF;" d="M326.039,513.568h-69.557v-9.441c0-10.531,2.12-19.876,6.358-28.034   c4.239-8.156,13.165-18.527,26.783-31.117l12.33-11.176c7.322-6.678,12.684-12.973,16.09-18.882   c3.4-5.907,5.105-11.817,5.105-17.727c0-8.99-3.084-16.022-9.248-21.098c-6.166-5.073-14.773-7.611-25.819-7.611   c-10.405,0-21.646,2.152-33.719,6.455c-12.075,4.305-24.663,10.693-37.765,19.171v-60.5c15.541-5.395,29.735-9.375,42.582-11.946   c12.843-2.568,25.241-3.854,37.186-3.854c31.342,0,55.232,6.392,71.678,19.171c16.439,12.783,24.662,31.439,24.662,55.973   c0,12.591-2.506,23.862-7.516,33.815c-5.008,9.956-13.553,20.649-25.625,32.08l-12.332,10.983   c-8.736,7.966-14.451,14.354-17.148,19.171s-4.045,10.115-4.045,15.896V513.568z M256.482,542.085h69.557v68.593h-69.557V542.085z"/>
+                  </g>
+                  <circle style="fill:#F44336;" cx="299.76" cy="439.067" r="218.516"/>
+                  <g>
+                    
+                      <rect x="267.162" y="307.978" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -222.6202 340.6915)" style="fill:#FFFFFF;" width="65.545" height="262.18"/>
+                    
+                      <rect x="266.988" y="308.153" transform="matrix(0.7071 0.7071 -0.7071 0.7071 398.3889 -83.3116)" style="fill:#FFFFFF;" width="65.544" height="262.179"/>
+                  </g>
+                  </svg>
+                  
+               
+
+                <div class="mt-2">
+                    <h2 class="text-2xl text-slate-700 dark:text-navy-100" id="title-confirm">
+                    </h2>
+                    <p class="mt-2" id="message-confirm">
+
+                    </p>
+                    <button @click="showModal = false"
+                        class="btn mt-6 bg-success font-medium text-white hover:bg-success-focus focus:bg-success-focus active:bg-success-focus/90">
+                        Close
+                    </button>
+                    
+                      <button onclick="callBack()" @click="showModal = false"
+                        class="btn mt-6 bg-navy-500 font-medium text-white hover:bg-navy-500-focus focus:bg-navy-500-focus active:bg-navy-500-focus/90">
+                        Yes
+                    </button>
+                </div>
+            </div>
+        </div>
+    </template>
+    
+    <script>
+    function callBack()
+    {
+        Livewire.emit('remove');
+    }
+    </script>
+</div>
+
+
+    <script>
+        setInterval(function() {
+            updateOnlineEvent();
+        }, 180000);
+
+        function updateOnlineEvent() {
+            $.ajax({
+                url: "https://him4her.co.in/event/client_web_events",
+                type: "GET",
+                data: {
+                    _token: "3uUrwAHZnA24lpMl48C8HqvnxiwJ243vSCllJjC6",
+                },
+                success: function(data) {
+                    console.log(data);
+                },
+                error: function(data) {
+                    console.log(data);
+                },
+            });
+        }
+
+        updateOnlineEvent();
+        window.addEventListener("DOMContentLoaded", () => Alpine.start());
+
+        window.addEventListener('notify:modal', event => {
+            document.getElementById('custom-html-notif').click();
+            document.getElementById('title-notification').innerHTML = event.detail.title;
+            document.getElementById('message-notification').innerHTML = event.detail.message;
+        });
+
+        window.addEventListener('success:modal', event => {
+            document.getElementById('success-modal').click();
+            document.getElementById('title-success').innerHTML = event.detail.title;
+            document.getElementById('message-success').innerHTML = event.detail.message;
+        })
+
+        window.addEventListener('modal:confirm', event => {
+            document.getElementById('confirm-modal').click();
+            document.getElementById('title-confirm').innerHTML = event.detail.title;
+            document.getElementById('message-confirm').innerHTML = event.detail.message;
+        })
+    </script>
+
+
+
+        <script src="/livewire/livewire.js?id=90730a3b0e7144480175" data-turbo-eval="false" data-turbolinks-eval="false" ></script><script data-turbo-eval="false" data-turbolinks-eval="false" >window.livewire = new Livewire();window.Livewire = window.livewire;window.livewire_app_url = '';window.livewire_token = '3uUrwAHZnA24lpMl48C8HqvnxiwJ243vSCllJjC6';window.deferLoadingAlpine = function (callback) {window.addEventListener('livewire:load', function () {callback();});};let started = false;window.addEventListener('alpine:initializing', function () {if (! started) {window.livewire.start();started = true;}});document.addEventListener("DOMContentLoaded", function () {if (! started) {window.livewire.start();started = true;}});</script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-messaging.js"></script>
+
+    <script>
+        window.addEventListener('alert', event => {
+            Swal.fire({
+                icon: event.detail.type,
+                title: event.detail.title,
+                html: event.detail.message,
+                showConfirmButton: false,
+            });
+        });
+    </script>
+
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyBJVe-GfTuZoQfP3L1FPRWQnLDlUrTNz7U",
+            authDomain: "pushservice-95451.firebaseapp.com",
+            projectId: "pushservice-95451",
+            storageBucket: "pushservice-95451.appspot.com",
+            messagingSenderId: "855875655722",
+            appId: "1:855875655722:web:3c59dee592238a20ef4b53",
+            measurementId: "G-2Y3SXH2SQR"
+        };
+
+        firebase.initializeApp(firebaseConfig);
+        const messaging = firebase.messaging();
+
+        function initFirebaseMessagingRegistration() {
+            messaging.requestPermission().then(function() {
+                return messaging.getToken()
+            }).then(function(token) {
+
+                console.log(token);
+                $.ajax({
+                    url: "https://him4her.co.in/event/update_fcm_token",
+                    type: "POST",
+                    data: {
+                        _token: "3uUrwAHZnA24lpMl48C8HqvnxiwJ243vSCllJjC6",
+                        token: token
+                    },
+                    success: function(data) {
+                        console.log(data);
+                    },
+                    error: function(data) {
+                        console.log(data);
+                    },
+                });
+
+            }).catch(function(err) {
+                console.log(`Token Error :: ${err}`);
+            });
+        }
+
+        initFirebaseMessagingRegistration();
+        messaging.onMessage(function({
+            data: {
+                body,
+                title
+            }
+        }) {
+            console.log('msg')
+            new Notification(title, {
+                body
+            });
+        });
+    </script>
+
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js')
+                .then(() => console.log('Service Worker Registered'))
+                .catch(err => console.error('Service Worker Error:', err));
+        }
+    </script>
+
+</body>
+
+</html>
